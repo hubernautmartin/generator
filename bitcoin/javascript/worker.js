@@ -13,7 +13,7 @@ function return_generated_outputs(private_key_string, formatted_private_key_stri
 function delayed_generate_outputs(private_key_string, coin_split_key_boolean) {
   setTimeout(function() {
     worker_coin_generate_outputs(private_key_string, coin_split_key_boolean);
-  }, 3000); // Prevent hangs if saved on disk
+  }, 3000); // Prevent page from hangs
 }
 
 function return_decoded_private_key(private_key_string) {
@@ -27,7 +27,7 @@ function return_decoded_private_key(private_key_string) {
 function delayed_decode_word_list(word_list_string) {
   setTimeout(function() {
     worker_coin_decode_word_list(word_list_string);
-  }, 500); // Prevent hangs if saved on drive
+  }, 500); // Prevent page from hangs
 }
 
 window.in_worker = false;

@@ -293,7 +293,7 @@ function generate_paper_wallet(private_key_string, formatted_private_key_string,
     context.font = "normal 80px sans-serif";
     for (var i = 0; i < blurs_sizes.length; i++) {
       context.shadowBlur = blurs_sizes[i];
-      context.fillText("Enter at: http://GeneratePaperWallet.com/" + coin_dir() + "/", 1080, 810);
+      context.fillText("Enter at: https://GeneratePaperWallet.com/" + coin_dir() + "/", 1080, 810);
       context.fillText("to restore " + coin_private_key_name(), 1080, 900);
     }
     context.shadowBlur = 0;
