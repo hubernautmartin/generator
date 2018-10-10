@@ -1,0 +1,360 @@
+/* Body, header, footer */
+body {
+  background-position: center; 
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+}
+#header, #footer {
+  text-align: center;
+  background: #000;
+  padding: 10px;
+}
+#header {
+  margin: 0px;
+  padding: 10px 0px 0px 0px;
+}
+#header .bling_left {
+  font-size: 1.4em;
+  color: #fff; /* for IE */
+  text-shadow: -2px 0 3px #fff, -2px 0 10px #fff;
+}
+#header .bling {
+  font-size: 2em;
+  color: #fff;
+  text-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+#header .bling_right {
+  font-size: 1.4em;
+  color: #fff;
+  text-shadow: 2px 0 3px #fff, 2px 0 10px #fff;
+}
+.fade_bar {
+	height: 10px;
+}
+.fade_bar2 {
+	height: 7px;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+}
+.fade_bar3 {
+	height: 7px;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+}
+.fade_bar4 {
+	height: 7px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.fade_bar5 {
+	height: 7px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.spacer {
+  float: left;
+  visibility: hidden;
+}
+p.donations {
+  font-size: 0.8em;
+  text-align: left;
+}
+img.footer_logo {
+  display: block;
+  width: 410px;
+  left: 50%;
+  margin: 0 auto;
+}
+
+/* Coin colors */
+.home {
+  background: #fff;
+}
+.bitcoin { 
+  background: #f2a900;
+}
+.bitcoin_cash { 
+  background: #4cc947;
+}
+.ethereum { 
+  background: #4a90e2;
+}
+.ethereum_classic { 
+  background: #17de8d;
+}
+.eos { 
+  background: #443f54;
+}
+.litecoin { 
+  background: #5f26ef;
+}
+.tether { 
+  background: #22a079;
+}
+.iota { 
+  background: #696eb2;
+}
+.dogecoin { 
+  background: #f2a51f;
+}
+
+/* Tabs */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+.tabs { 
+  width: 1200px;
+  list-style: none; 
+  margin: 0px auto 0; 
+}
+.tabs li { 
+  /* Makes a horizontal row */
+  float: left; 
+                       
+  /* So the psueudo elements can be
+             abs. positioned inside */
+  position: relative; 
+  margin: 0px 5px 0px 0px;
+}
+.tabs a { 
+  float: left; 
+  padding: 12px 12px 8px 12px; 
+  text-decoration: none;
+                  
+  /* Only round the top corners */
+  -webkit-border-top-left-radius: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-topleft: 15px;
+  -moz-border-radius-topright: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; 
+  border-bottom: 5px solid #000;
+}
+.tabs a img.tiny_logo  {
+  height: 20px;
+}
+.tabs a span {
+  line-height: 20px;
+  padding-left: 5px;
+  color: #fff;
+  text-shadow: 0 0 2px #000, 0 0 4px #000, 0 0 6px #000;
+}
+.tabs a.home span {
+  color: #000;
+  text-shadow: 0 0 2px #bbb, 0 0 4px #bbb, 0 0 6px #bbb;
+}
+.tabs .active {
+  /* Highest, active tab is on top */
+  z-index: 3;
+}
+
+/* Titles, globals, and boxes */
+h1 {
+  font-size: 4em;
+  text-align: center;
+}
+h2 {
+  font-size: 3.5em;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+p.button {
+  text-align: right;
+}
+a {
+  color: #fff;
+  border: none;
+  outline: none;
+}
+img {
+  border: none;
+  outline: none;
+}
+div.box {
+  width: 920px;
+  left: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+.mouse {
+  font-size: 2em;
+  text-shadow: 0 0 3px #000, 0 0 10px #000, 0 0 20px #000, 0 0 40px #000;
+}
+.done {
+  font-weight: bold;
+  font-size: 3.2em;
+  text-shadow: 0 0 3px #000, 0 0 10px #000, 0 0 20px #000, 0 0 40px #000;
+}
+.smallish {
+  font-size: 1.5em;
+  text-shadow: 0 0 3px #000, 0 0 10px #000, 0 0 20px #000, 0 0 40px #000;
+}
+
+/* Logo */
+#logo_box {
+  width: 160px;
+  height: 160px;
+  left: 50%;
+  margin: 0 auto;
+}
+img.logo  {
+  position: absolute;
+}
+#logo2 {
+  transform: rotate(-2deg) scale(1.1);
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+#logo3 {
+  transform: rotate(-5deg) scale(1.2);
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+#logo4 {
+  transform: rotate(-9deg) scale(1.3);
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+#logo5 {
+  transform: rotate(-15deg) scale(1.4);
+  opacity: 0.1;
+  filter: alpha(opacity=10);
+}
+
+/* Coin boxes */
+div.coin_box {
+	float: left;
+  width: 306px;
+  height: 266px;
+}
+div.coin_box div {
+	padding: 20px;
+}
+div.coin_box div div {
+  font-size: 1.6em;
+  text-align: center;
+  text-shadow: 0 0 2px #000, 0 0 4px #000, 0 0 6px #000;
+}
+div.coin_box div div a {
+  text-decoration: none;
+}
+div.coin_box div div a img {
+  margin-bottom: 10px;
+}
+
+/* Paper wallet */
+canvas.wallet_canvas {
+  border: 1px solid black;
+  background-color: #fff;
+  width: 920px;
+  height: 570px;
+}
+#paper_wallet {
+  width: 920px;
+  height: 570px;
+  left: 50%;
+  margin: 0 auto;
+  padding: 50px 0px 0px 0px;
+}
+
+/* Buttons, output */
+button {
+  -moz-box-shadow: 3px 4px 0px 0px #000;
+  -webkit-box-shadow: 3px 4px 0px 0px #000;
+  box-shadow: 3px 4px 0px 0px #000;
+  border: 1px solid #000;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 44px;
+  margin: 5px 0px 25px 0px;
+  text-decoration: none;
+  text-shadow: 0 0 2px #000, 0 0 5px #000, 0 0 10px #000
+}
+button:hover {
+  background-color: #000;
+}
+button:active {
+  position:relative;
+  top:1px;
+}
+button:disabled,
+button[disabled],
+button:disabled:hover,
+button[disabled]:hover {
+  -moz-box-shadow: 3px 4px 0px 0px #000;
+  -webkit-box-shadow: 3px 4px 0px 0px #000;
+  box-shadow: 3px 4px 0px 0px #000;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #555), color-stop(1, #cecece));
+  background:-moz-linear-gradient(top, #555 5%, #cecece 100%);
+  background:-webkit-linear-gradient(top, #555 5%, #cecece 100%);
+  background:-o-linear-gradient(top, #555 5%, #cecece 100%);
+  background:-ms-linear-gradient(top, #555 5%, #cecece 100%);
+  background:linear-gradient(to bottom, #555 5%, #cecece 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#505050', endColorstr='#cecece',GradientType=0);
+  background-color: #000;
+  color: #cecece;
+  cursor: not-allowed;
+}
+.output_box {
+  border: 1px solid #000;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  word-wrap: break-word;
+  font-size: 1.5em;
+}
+.output {
+  padding: 0px 10px;
+  margin: 23px 0px 23px 0px;
+}
+
+/* Wallet words, input */
+textarea {
+  border: none;
+  width: 100%;
+  height: 4em;
+  padding: 0px;
+  font-size: 1.5em;
+} 
+.input_wrapper {
+  background-color: #fff;
+  padding: 5px;
+}
+.input_wrapper_wrapper {
+  border: 1px solid #000;
+  margin: 0px;
+  padding: 5px;
+}
+
+/* Printing */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #paper_wallet, #paper_wallet * {
+    visibility: visible;
+  }
+  #paper_wallet {
+    position: absolute;
+    left: 75px;
+    top: 75px;
+  }
+}

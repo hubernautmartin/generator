@@ -1,0 +1,16 @@
+body {
+  background: #fff;
+  background-image: url("images/logo_background.png");
+}
+.fade_bar, .fade_bar2, .fade_bar3, .fade_bar4, .fade_bar5 {
+  background: #fff;
+}
+.tabs a.active {
+  border-bottom: 5px solid #fff;
+} 
+h1 {
+  text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #000, 0 0 15px #000, 0 0 20px #000, 0 0 25px #000, 0 0 30px #000, 0 0 35px #000, 0 0 40px #000;
+}
+h2 {
+  text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #000, 0 0 15px #000, 0 0 20px #000, 0 0 25px #000, 0 0 30px #000, 0 0 35px #000, 0 0 40px #000;
+}
