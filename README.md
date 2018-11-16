@@ -1,6 +1,6 @@
 # Open Source Secure Paper Wallet Generator
 
-Runs http://GeneratePaperWallet.com
+Runs https://GeneratePaperWallet.com
 
 It uses random data from your mouse mixed with entropy from your OS
 to generate paper wallets.
